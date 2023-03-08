@@ -1,0 +1,203 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+  <header class="navbar" >
+    <div class="logo">
+      <h1>Backpakerin</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#trip">Paket Open Trip</a></li>
+        <li><a href="#fasility">Fasilitas</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>wahai para backpaker!</h1>
+    <h6>temukan petualang terbaikmu sekarang!</h6>
+    <section class="home">
+      <div id="content" class="box">
+        <article id="" class="card">
+          <div class="slide">
+            <img src="img/labuan bajo.jpg" class="mySlider" alt="labuan">
+            <img src="img/raja ampat.jpg" class="mySlider" alt="labuan">
+            <img src="img/pburu.jpg" class="mySlider" alt="labuan">
+            <img src="img/nat.jpg" class="mySlider" alt="labuan">
+            <img src="img/hiking.jpg" class="mySlider" alt="labuan">
+          </div>
+          <p>
+            Backpakerin merupakan tour operator yang menjalankan langsung aktifitas tour dengan konsep berpetualang di wisata alam indonesia. Bersama kami kemudahan dan kenyamana petualangan anda menjadi yang paling utama. Didukung dengan fasilitas lengkap dan tim yang berpengalaman, kami selalu siap menemani anda ke berbagai destinasi wisata alam terkenal dan tersembunyi dari awal sampai akhir destinasi anda. sehingga anda mendapat pengalaman unik tak terlupakan selama mengeksplorasi keindahan wisata indonesia.
+          </p>
+          <p>
+            Dengan tim guide lokal yang memiliki pengetahuan daerah yang lengkap dan pelayanan dari hati, backpakerin memastikan setiap wisatawan yang berlibur bersama kami akan mendapatkan pengalaman terbaiknya.
+          </p>
+          <a href="#"><button>selengkapnya</button></a>
+        </article>
+      </div>
+      <aside class="">
+        <article class="sidebar" >
+          <h2>Hubungi Kami</h2>
+          <p>Sosial media kami:</p>
+          <div class="social-media">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+              </li>
+            </ul>
+          </div>
+          <form class="form card" id="form" name="form" onsubmit="return validateForm()">
+            <div class="input">
+                <label for="title">Nama lengkap</label>
+                <input id="title" type="text" name="full-name" placeholder="nama lengkap" required>
+            </div>
+            <div class="input">
+                <label for="author">Email</label>
+                <input id="author" type="email" name="email" placeholder="@gmail.com" required>
+            </div>
+            <div class="input">
+                <label for="trip">Mau pergi kemana?</label>
+                <select name="option" id="option">
+                  <option value="neira">Banda Neira</option>
+                  <option value="ampat">Raja Ampat</option>
+                  <option value="aceh">Banda Aceh</option>
+                  <option value="bajo">Labuan Bajo</option>
+                  <option value="buru">Pulau Buru</option>
+                  <option value="tual">Kepulauan Tual</option>
+                </select>
+            </div>
+            <button type="submit" name="submit" value="Submit" class="btn-submit"> Kirim</button>
+        </form>
+        </article>
+      </aside>
+<!-- trip -->
+</section>
+ <section id="trip" class="destinasi">
+    <h2>mau wisata kemana?</h2>
+    
+    <div class="row">
+      <div class="destinasi-card">
+        <img src="img/hiking.jpg" alt="hiking" class="destinasi-card-img">
+        <h3 class="menu-card-title">Banda Neira</h3>
+        <a href="#"><button>lihat paket</button></a>
+      </div>
+      <div class="destinasi-card">
+        <img src="img/raja ampat.jpg" alt="raja ampat" class="destinasi-card-img">
+        <h3 class="menu-card-title">Raja Ampat</h3>
+        <a href="#"><button>lihat paket</button></a>
+      </div>
+      <div class="destinasi-card">
+        <img src="img/labuan bajo.jpg" alt="labuan bajo" class="destinasi-card-img">
+        <h3 class="menu-card-title">Labuan Bajo</h3>
+        <a href="#"><button>lihat paket</button></a>
+      </div>
+      <div class="destinasi-card">
+        <img src="img/nat.jpg" alt="kabut" class="destinasi-card-img">
+        <h3 class="menu-card-title">Kepulauan Tual</h3>
+        <a href="#"><button>lihat paket</button></a>
+      </div>
+      <div class="destinasi-card">
+        <img src="img/pburu.jpg" alt="pulau buru" class="destinasi-card-img">
+        <h3 class="menu-card-title">Pulau Buru</h3>
+        <a href="#"><button>lihat paket</button></a>
+      </div>
+      <div class="destinasi-card">
+        <img src="img/aceh.jpg" alt="aceh" class="destinasi-card-img">
+        <h3 class="menu-card-title">Banda Aceh</h3>
+        <a href="#"><button>lihat paket</button></a>
+      </div>
+    </div>
+  </section>
+  <!-- fasility -->
+  <section id="fasility" class="fasilitas">
+    <h2>Apa saja fasilitasnya jika bergabung?</h2>
+    
+    <div class="row">
+      <div class="wrapper">
+       <div>
+        <img src="draw/camera.png" alt="drone" class="wrapper-img">
+        </div>
+        <div class="second">
+        <h4 class="menu-card-title">Dokumentasi Terbaik</h4>
+        <p>Fasilitas dokumentasi lengkap menggunakan drone, go pro, dan mirrorless</p>
+        </div>
+      </div>
+      <div class="wrapper">
+       <div>
+        <img src="draw/tool.png" alt="drone" class="wrapper-img">
+        </div>
+        <div class="second">
+        <h4 class="menu-card-title">Peralatan Terlengkap</h4>
+        <p>Untuk melengkapi petualangan anda kami mempersiapkan berbagai peralatan mulai dari alat-alat outdor, snorling, hiking,dll </p>
+        </div>
+      </div>
+      <div class="wrapper">
+       <div>
+        <img src="draw/team.png" alt="drone" class="wrapper-img">
+        </div>
+        <div class="second">
+        <h4 class="menu-card-title">Team Terhebat</h4>
+        <p>Kami memiliki team yang berpengalaman dan profesional yang memiliki pashion dalam pengembangan wisata alam indonesia</p>
+        </div>
+      </div> 
+      <div class="wrapper">
+       <div>
+        <img src="draw/money.png" alt="drone" class="wrapper-img">
+        </div>
+        <div class="second">
+        <h4 class="menu-card-title">Biaya Terjangkau</h4>
+        <p>Kami jamin harga terbaik tanpa hiden fee, dengan rincian biaya sampai biaya trip kami tampilkan sedetail mungkin</p>
+        </div>
+      </div> 
+      <div class="wrapper">
+       <div>
+        <img src="draw/destinasi.png" alt="drone" class="wrapper-img">
+        </div>
+        <div class="second">
+        <h4 class="menu-card-title">Destinasi Terindah</h4>
+        <p>Selain membawa anda ke tempat destinasi wisata alam terbaik kami juga akan membawa anda ke tempat wisata tersembunyi </p>
+        </div>
+      </div> 
+
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="footer">
+    <div class="first">
+      <h1>Backpakerin</h1>
+    </div>
+    <div class="link">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#trip">Paket Open Trip</a></li>
+        <li><a href="#fasility">Fasilitas</a></li>
+      </ul>
+    </div>
+    <div class="created">
+      <p>created by <a href="">aditia pangestu</a>. &copy; 2023</p>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
